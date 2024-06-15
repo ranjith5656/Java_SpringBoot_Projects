@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename compilation unit &apos;com.rgt.messaging.cli.RGTMessiging.java&apos; to &apos;RGTMessaging.java&apos;&#x0D;&#x0A;- Original project: &apos;RGTMessaging-CLI-Application&apos;&#x0D;&#x0A;- Original element: &apos;com.rgt.messaging.cli.RGTMessiging.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.rgt.messaging.cli.RGTMessaging.java&apos;" description="Rename compilation unit &apos;RGTMessiging.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.rgt.messaging.cli{RGTMessiging.java" name="RGTMessaging.java" references="false" stamp="1686759230226" version="1.0"/>
-</session>
