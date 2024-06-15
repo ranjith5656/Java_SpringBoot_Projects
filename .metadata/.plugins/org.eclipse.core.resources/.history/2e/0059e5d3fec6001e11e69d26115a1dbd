@@ -1,0 +1,5 @@
+package com.banking.domain;
+
+public class AccountDomain {
+
+}

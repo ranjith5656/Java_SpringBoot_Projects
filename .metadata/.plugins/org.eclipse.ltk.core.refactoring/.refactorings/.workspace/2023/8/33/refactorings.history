@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;BookStore_Using_SB_MongoDB&apos; to &apos;Order_Using_SB_MongoDB&apos;" description="Rename resource &apos;BookStore_Using_SB_MongoDB&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/BookStore_Using_SB_MongoDB" name="Order_Using_SB_MongoDB" stamp="1692424681446" updateReferences="true"/>
+</session>

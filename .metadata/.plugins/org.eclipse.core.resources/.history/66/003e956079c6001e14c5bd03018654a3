@@ -1,0 +1,36 @@
+package com.banking.service;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.banking.entity.AccountEntity;
+import com.banking.repo.AccountRepo;
+
+@Service
+public class AccountServiceImpl implements AccountService{
+	
+	@Autowired
+	private AccountRepo accountRepo;
+
+	@Override
+	public AccountEntity createAccount(AccountEntity accountEntity) {
+		return accountRepo.save(accountEntity);
+	}
+
+	@Override
+	public AccountEntity fetchAccount(Long id) {
+		return accountRepo.getByAccountId(id);
+	}
+
+	@Override
+	public AccountEntity deposit(Long id, double amount) {
+		
+		Optional<AccountEntity> account = accountRepo.findById(id);
+		
+		double total = account.get
+		return null;
+	}
+
+}

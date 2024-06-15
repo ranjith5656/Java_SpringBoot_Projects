@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.rgt.messaging.networks.ChatClient&apos; to &apos;ChatClientMain&apos;&#x0D;&#x0A;- Original project: &apos;RGT_Chat_Messaging_App-Using_Java_Networking&apos;&#x0D;&#x0A;- Original element: &apos;com.rgt.messaging.networks.ChatClient&apos;&#x0D;&#x0A;- Renamed element: &apos;com.rgt.messaging.networks.ChatClientMain&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ChatClient&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.rgt.messaging.networks{ChatClient.java[ChatClient" matchStrategy="1" name="ChatClientMain" qualified="false" references="true" similarDeclarations="true" stamp="1688463336892" textual="false" version="1.0"/>
+</session>

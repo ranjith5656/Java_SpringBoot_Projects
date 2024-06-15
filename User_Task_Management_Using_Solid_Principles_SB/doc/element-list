@@ -1,0 +1,10 @@
+com.example.demo
+com.user.management
+com.user.management.controller
+com.user.management.domain
+com.user.management.entity
+com.user.management.objectcopier
+com.user.management.repository
+com.user.management.securityconfig
+com.user.management.service
+com.user.task.mangement.service

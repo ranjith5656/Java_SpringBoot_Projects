@@ -1,0 +1,5 @@
+package com.bookstore.inventory.entity;
+
+public class Order {
+
+}

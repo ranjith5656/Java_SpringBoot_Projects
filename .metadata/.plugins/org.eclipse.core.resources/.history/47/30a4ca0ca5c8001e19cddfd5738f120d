@@ -1,0 +1,42 @@
+package com.banking.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import com.banking.entity.AccountEntity;
+import com.banking.entity.CustomerEntity;
+import com.banking.service.BankingService;
+
+@RestController
+@RequestMapping("/api")
+public class BankingController {
+
+    @Autowired
+    private BankingService bankingService;
+
+    @PostMapping("/accounts")
+    public AccountEntity createAccount(@RequestParam String accountNumber, @RequestParam double initialBalance) {
+        return bankingService.createAccount(accountNumber, initialBalance);
+    }
+
+    @PostMapping("/customers")
+    public CustomerEntity createCustomer(@RequestParam String firstName, @RequestParam String lastName, @RequestParam String email) {
+        return bankingService.createCustomer(firstName, lastName, email);
+    }
+
+    @GetMapping("/accounts/{id}/balance")
+    public double checkBalance(@PathVariable Long id) {
+        return bankingService.checkBalance(id);
+    }
+
+    @PostMapping("/accounts/{id}/deposit")
+    public void deposit(@PathVariable Long id, @RequestParam double amount) {
+        bankingService.deposit(id, amount);
+    }
+
+    @PostMapping("/accounts/{id}/withdraw")
+    public void withdraw(@PathVariable Long id, @RequestParam double amount) {
+        bankingService.withdraw(id, amount);
+    }
+}
+

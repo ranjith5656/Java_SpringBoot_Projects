@@ -1,0 +1,10 @@
+package com.banking.service;
+
+import com.banking.entity.AccountEntity;
+
+public interface AccountService {
+
+	public AccountEntity createAccount(AccountEntity accountEntity);
+	
+	public AccountEntity fetchAccount(Long id);
+}

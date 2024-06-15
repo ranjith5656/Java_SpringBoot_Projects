@@ -1,0 +1,5 @@
+package com.bookstore.inventory.securityconfig;
+
+public class SecurityConfig {
+
+}

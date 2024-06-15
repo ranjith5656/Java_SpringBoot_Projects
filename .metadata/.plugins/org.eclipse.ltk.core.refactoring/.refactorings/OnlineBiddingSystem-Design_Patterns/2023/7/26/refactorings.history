@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.desigin.patterns&apos; to &apos;com.design.patterns&apos;&#x0D;&#x0A;- Original project: &apos;Online Bidding System-Design_Patterns&apos;&#x0D;&#x0A;- Original element: &apos;Online Bidding System-Design_Patterns/src/com.desigin.patterns&apos;&#x0D;&#x0A;- Renamed element: &apos;Online Bidding System-Design_Patterns/src/com.design.patterns&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.desigin.patterns&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.desigin.patterns" name="com.design.patterns" qualified="false" references="true" stamp="1688204162866" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri : mongodb+srv://ranjith5656:ranjith@springboot.pv4ksuw.mongodb.net/?retryWrites=true&w=majority
+      database : Order
